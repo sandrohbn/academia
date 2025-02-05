@@ -55,7 +55,6 @@ https://<NOME_DA_SUA_FUNCAO>.azurewebsites.net/api/fncValidaCPF?code=<SUA_CHAVE_
 5. **No cabeçalho, adicione**:
 - Content-Type: application/json
 6. **No corpo da requisição, insira o seguinte JSON**:
-```json
 {
     "CPF": "12345678901"
 }
