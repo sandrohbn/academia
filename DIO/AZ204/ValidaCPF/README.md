@@ -1,10 +1,4 @@
-# Academia
-
-Este repositório contém os estudos e trabalhos realizados durante diversos cursos.
-
-## Projetos
-
-### Validação de CPF em .NET 8
+## Projeto: Validação de CPF em .NET 8 no Azure function
 
 Este projeto contém uma função de validação de CPF desenvolvida em .NET 8.
 
@@ -58,5 +52,20 @@ Você pode testar a função de validação de CPF utilizando o Postman. Siga os
 
 https://<NOME_DA_SUA_FUNCAO>.azurewebsites.net/api/fncValidaCPF?code=<SUA_CHAVE_DEFAULT>
 
+5. **No cabeçalho, adicione**:
+- Content-Type: application/json
+6. **No corpo da requisição, insira o seguinte JSON**:
+```json
+{
+    "CPF": "12345678901"
+}
+
+Clique em Send.
+Verifique a resposta: A resposta retornará uma mensagem indicando se o CPF é válido ou não.
+
 Exemplo do teste:
       ![image](https://github.com/user-attachments/assets/93800003-8d89-43a8-b2be-98f89be151cb)
+
+Créditos
+- [Digital Innovation One](https://www.dio.me/) e aos professores do Bootcamp Microsoft Certification Challenge #2 AZ-204
+- Agradecimentos ao Microsoft Copilot pela assistência na criação deste projeto.😊
