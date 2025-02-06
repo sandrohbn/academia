@@ -65,6 +65,6 @@ Verifique a resposta: A resposta retornará uma mensagem indicando se o CPF é v
 Exemplo do teste:
       ![image](https://github.com/user-attachments/assets/93800003-8d89-43a8-b2be-98f89be151cb)
 
-Créditos
+#Créditos e Agradecimentos
 - [Digital Innovation One](https://www.dio.me/) e aos professores do Bootcamp Microsoft Certification Challenge #2 AZ-204
-- Agradecimentos ao Microsoft Copilot pela assistência na criação deste projeto.😊
+- [Microsoft Copilot](https://copilot.microsoft.com) pela assistência na criação deste projeto.😊
